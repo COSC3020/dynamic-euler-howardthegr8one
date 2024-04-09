@@ -18,3 +18,6 @@ but you need to go beyond that.
 ## Runtime Analysis
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
+
+## My Runtime Analysis
+Since my implementation is tail-recursive and when not in the base case decrements $n$ until it reaches zero, the worst-case runtime would be $\Theta(n)$.
