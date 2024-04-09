@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/3aNDMX3O)
 # Dynamic Programming Euler's Number
 
 The mathematical constant $e$ (Euler's number) is defined as follows:
@@ -17,3 +18,6 @@ but you need to go beyond that.
 ## Runtime Analysis
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
+
+## My Runtime Analysis
+Since my implementation is tail-recursive and when not in the base case decrements $n$ until it reaches zero, the worst-case runtime would be $\Theta(n)$.
